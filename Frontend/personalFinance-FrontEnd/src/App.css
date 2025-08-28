@@ -1,0 +1,77 @@
+.navbar {
+  background-color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: 500;
+  display: inline-flex;
+
+
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: var(--accent-color);
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  margin-left: 0.9rem;
+  font-weight: 550;
+  border: none;
+  border-radius: 1rem;
+  background: white;
+  cursor: pointer;
+}
+
+.login {
+  background: var(--accent-color);
+  color: white;
+}
+
+.signup {
+  background: var(--primary-color);
+  color: white;
+}
+
+.hero {
+  padding: 3rem 2rem;
+  background-color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.cta {
+  color: var(--cta-color);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-left: 5px solid var(--primary-color);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
